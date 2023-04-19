@@ -1,0 +1,100 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "courseTitle": "Frontend development with Vue.js",
+      "courseNumber": 356475,
+      "courseLength": "3 days",
+      "startDate": "2023-05-19",
+      "description": "Learn how to develop a web application with Vue.js. This course will walk you through the essentials and then deep dive into the intricacies of Vue.js."
+    },
+    {
+      "id": 2,
+      "courseTitle": "Deep dive into React",
+      "courseNumber": 564753,
+      "courseLength": "5 days",
+      "startDate": "2023-06-21",
+      "description": "In this course, you will learn the core fundamentals of React, disecting its components, structures and learn how the library functions in a detailed fashion."
+    },
+    {
+      "id": 3,
+      "courseTitle": "Choose your framework: React vs Vue.js vs Angular",
+      "courseNumber": 564753,
+      "courseLength": "2 days",
+      "startDate": "2023-07-01",
+      "description": "Are you wondering which frontend framework/library suits you best? Look no further as this course will highlight the main differences between React, Vue.js and Angular. The course is also a good first intro to those frameworks for new developers."
+    },
+    {
+      "id": 4,
+      "courseTitle": "Node.js Crash Course",
+      "courseNumber": 653475,
+      "courseLength": "1 day",
+      "startDate": "2023-04-25",
+      "description": "Need to get up and running with Node.js? This crash course will see that you know the basics and fundamentals of Node.js as well as provide you with reading materials and links for those who wish to master the environment."
+    },
+    {
+      "id": 5,
+      "courseTitle": "Composition API in details",
+      "courseNumber": 365745,
+      "courseLength": "5 days",
+      "startDate": "2024-10-25",
+      "description": "Learn how to switch from Options API to Composition API in Vue, in the near future."
+    },
+    {
+      "id": 6,
+      "courseTitle": "Mobile app development with Swift",
+      "courseNumber": 663475,
+      "courseLength": "6 days",
+      "startDate": "2023-07-21",
+      "description": "Learn Swift swiftly with John wick and learn how to create wicked mobile apps."
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Wick",
+      "email": "john.wick@the.movie.com",
+      "phoneNumber": "0775648381",
+      "personalNumber": "211014-1263",
+      "competencies": "C#, HTML, CSS, Vanilla JavaScript, Vue.js, Swift"
+    },
+
+    {
+      "id": 2,
+      "firstName": "Ladgerda",
+      "lastName": "Lothbrok",
+      "email": "ladgerda@lothbrok.se",
+      "phoneNumber": "0103226689",
+      "personalNumber": "001116-2333",
+      "competencies": "Vue.js, React, Angular, CMS, HTML, SASS, Next.js, Tailwind"
+    },
+    {
+      "id": 3,
+      "firstName": "Ragnar",
+      "lastName": "Lothbrok",
+      "email": "ragnar@lothbrok.se",
+      "phoneNumber": "0103416689",
+      "personalNumber": "001116-2334",
+      "competencies": "Vue.js, React, Angular, CMS, HTML, SASS"
+    },
+    {
+      "id": 4,
+      "firstName": "Eyvind",
+      "lastName": "Magnusson",
+      "email": "eyvind@magnusson.se",
+      "phoneNumber": "0723242619",
+      "personalNumber": "010927-1234",
+      "competencies": "Node, Javascript, Typescript, React, CSS, HTML, SASS"
+    },
+    {
+      "id": 5,
+      "firstName": "Bill",
+      "lastName": "Gates",
+      "email": "bill.gates@windows.com",
+      "phoneNumber": "0785578089",
+      "personalNumber": "551028-1323",
+      "competencies": "Windows, C++, C#, Java, Javascript, Python, BASIC, Assembly"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.topNav {
+  background-color: #5d5d5a;
+  box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.26);
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: hsl(202, 100%, 73%);
+  font-size: 1.5rem;
+}
+
+.list a:hover,
+.list a.active {
+  color: hsl(202, 100%, 73%);
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo {
+  width: 250px;
+}

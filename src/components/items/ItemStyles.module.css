@@ -1,0 +1,8 @@
+.italic {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.background {
+  background-color: hsl(201, 100%, 91%);
+}
