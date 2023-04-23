@@ -1,31 +1,25 @@
-.overlay {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 10;
-  background: rgba(0, 0, 0, 0.4);
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .modal {
   position: fixed;
-  top: 30vh;
-  left: 10%;
+  /* top: 10vh; */
+  top: 5vh;
+  left: 6%;
   width: 80%;
-  z-index: 100;
-  overflow: hidden;
-}
-
-.header {
-  background: #b01f27;
+  background-color: white;
   padding: 1rem;
-}
-
-.header h2 {
-  margin: 0;
-  color: white;
-  font-weight: 400;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
 }
 
 .content {
@@ -36,12 +30,27 @@
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
-  background: #0e0e83;
+}
+
+.close:hover,
+.close:active:enabled {
+  background-color: #ff6464;
+  border-color: #ff6a6a;
 }
 
 @media (min-width: 768px) {
   .modal {
     left: calc(50% - 20rem);
     width: 40rem;
+  }
+}
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
