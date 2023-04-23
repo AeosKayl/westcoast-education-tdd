@@ -10,9 +10,6 @@ const Navbar = () => {
         <Link to={"/"}>
           <img className={classes.logo} src={logo} alt="westcoast logo" />
         </Link>
-        {/* <Link to={"/"}>
-          <h1>WestCoast Education</h1>
-        </Link> */}
       </div>
       <ul className={classes.list}>
         <li>

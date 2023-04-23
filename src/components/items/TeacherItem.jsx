@@ -23,7 +23,8 @@ const TeacherDetails = () => {
               {teacher.firstName} {teacher.lastName}
             </h3>
             <p>
-              <b>Competencies:</b> {teacher.competencies}
+              <b>Competencies:</b>
+              <br /> {teacher.competencies}
             </p>
             <p>
               <b>Phone No:</b> {teacher.phoneNumber}

@@ -44,10 +44,3 @@ textarea {
 .addBtn:enabled {
   background-color: #a7edff;
 }
-
-@media screen and (max-width: 500px) {
-  .control input,
-  textarea {
-    max-width: 15rem;
-  }
-}

@@ -10,11 +10,15 @@ const CourseList = ({ courses }) => {
         <Card>
           <h3>{course.courseTitle}</h3>
           <p>
-            <b>Start date:</b> {course.startDate}
+            <b>Course Number:</b> {course.courseNumber}
           </p>
           <p>
             <b>Duration:</b> {course.courseLength}
           </p>
+          <p>
+            <b>Start date:</b> {course.startDate}
+          </p>
+
           <Link to={`/courses/${course.id}`} state={course}>
             Click for details...
           </Link>

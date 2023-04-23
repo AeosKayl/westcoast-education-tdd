@@ -22,10 +22,6 @@
   animation: slide-down 300ms ease-out forwards;
 }
 
-.content {
-  padding: 2rem;
-}
-
 .actions {
   padding: 1rem;
   display: flex;
@@ -42,6 +38,10 @@
   .modal {
     left: calc(50% - 20rem);
     width: 40rem;
+  }
+
+  .content {
+    padding: 2rem;
   }
 }
 @keyframes slide-down {
