@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useHttp = (endpoint, method, headers, body) => {
   const [data, setData] = useState(null);
-  const [error, setError] = useState("");
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -13,9 +13,13 @@ const useHttp = (endpoint, method, headers, body) => {
           body: body ? JSON.stringify(body) : null,
         });
 
+        if (!resp.ok) {
+          throw new Error("Request failed!");
+        }
+
         setData(await resp.json());
       } catch (error) {
-        setError(error);
+        setError(error.message || "Something went bad!");
       }
     };
 

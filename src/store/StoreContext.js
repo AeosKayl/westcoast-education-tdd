@@ -8,6 +8,7 @@ export const StoreContext = React.createContext({
 const StoreContextProvider = ({ children }) => {
   const [courses, setCourses] = useState([]);
   const [teachers, setTeachers] = useState([]);
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <StoreContext.Provider
@@ -16,6 +17,8 @@ const StoreContextProvider = ({ children }) => {
         setCourses,
         teachers,
         setTeachers,
+        openModal,
+        setOpenModal,
       }}
     >
       {children}
