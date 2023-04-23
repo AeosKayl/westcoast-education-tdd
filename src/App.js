@@ -1,5 +1,3 @@
-//import logo from "./logo.svg";
-
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 
@@ -28,13 +26,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <header></header>
-      <main>
-        <Home />
-        <Courses />
-        <Teachers />
-      </main>
-      <footer></footer> */}
     </>
   );
 }

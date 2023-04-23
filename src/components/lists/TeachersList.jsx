@@ -19,21 +19,13 @@ const TeachersList = ({ teachers }) => {
             Click for details...
           </Link>
         </Card>
-        {/* <Card>
-          <h4>
-            Teacher: {teacher.firstName} {teacher.lastName}
-          </h4>
-          <p>Competencies: {teacher.competencies}</p>
-          <p>Email: {teacher.email}</p>
-        </Card> */}
-        {/* <TeacherItem teacher={teacher} /> */}
       </li>
     ));
   };
 
   return (
     <section>
-      <h3>Our Teachers</h3>
+      <h2>Our Teachers</h2>
       <ul className={classes.ul}>{createTeachersList(teachers)}</ul>
     </section>
   );

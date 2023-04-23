@@ -1,10 +1,4 @@
-/* .control {
-  margin-bottom: 0.5rem;
-} */
 .form {
-  /* margin: 1rem 0;
-  height: 30rem;
-  overflow: hidden; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -25,8 +19,6 @@ textarea {
   max-width: 35rem;
   margin-bottom: 1.5rem;
   height: 2.5rem;
-  /* width: 20rem;
-  max-width: 100%; */
 }
 
 .teachers input {
@@ -51,7 +43,6 @@ textarea {
 
 .addBtn:enabled {
   background-color: #a7edff;
-  /* border: 1px solid blue; */
 }
 
 @media screen and (max-width: 500px) {

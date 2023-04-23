@@ -47,6 +47,46 @@
       "courseLength": "6 days",
       "startDate": "2023-07-21",
       "description": "Learn Swift swiftly with John wick and learn how to create wicked mobile apps."
+    },
+    {
+      "id": "0e025356-4c87-4e16-a079-5b77a7f3ee4d",
+      "courseTitle": "hello",
+      "courseNumber": 1699,
+      "courseLength": "6 weeks",
+      "startDate": "2023-04-30",
+      "description": "eat me"
+    },
+    {
+      "id": "17090e09-7f60-4320-86ea-76fb16d5d70e",
+      "courseTitle": "Testing",
+      "courseNumber": 15969,
+      "courseLength": "3 days",
+      "startDate": "2023-04-21",
+      "description": "testing again"
+    },
+    {
+      "id": "973d7720-cb0f-43e9-864c-dfb59b8d8a78",
+      "courseTitle": "Testing",
+      "courseNumber": 9534,
+      "courseLength": "3 days",
+      "startDate": "2023-04-21",
+      "description": "ssss"
+    },
+    {
+      "id": "b5fa2ae1-e3e7-4761-aad0-ad484fc81250",
+      "courseTitle": "New wave music",
+      "courseNumber": 17281,
+      "courseLength": "2 days",
+      "startDate": "2023-04-01",
+      "description": "sweet stuff"
+    },
+    {
+      "id": "7d6ef614-cddc-4abf-b59d-9b1fa83c50a8",
+      "courseTitle": "New test",
+      "courseNumber": 12680,
+      "courseLength": "3 days",
+      "startDate": "2023-04-23",
+      "description": "testing again"
     }
   ],
   "teachers": [
@@ -59,7 +99,6 @@
       "personalNumber": "211014-1263",
       "competencies": "C#, HTML, CSS, Vanilla JavaScript, Vue.js, Swift"
     },
-
     {
       "id": 2,
       "firstName": "Ladgerda",
@@ -95,6 +134,33 @@
       "phoneNumber": "0785578089",
       "personalNumber": "551028-1323",
       "competencies": "Windows, C++, C#, Java, Javascript, Python, BASIC, Assembly"
+    },
+    {
+      "id": "7c5a10ce-60f6-4108-a0f3-326ff8470b13",
+      "firstName": "Freja",
+      "lastName": "Ivarsson",
+      "email": "sara@saraivarsson.se",
+      "phoneNumber": "123334123",
+      "personalNumber": "22222222233-4443",
+      "competencies": "Javascript, React, HTML, CSS, Redux"
+    },
+    {
+      "id": "7b1ce325-7943-49b9-8478-22ead49c4aa4",
+      "firstName": "test",
+      "lastName": "testsson",
+      "email": "test@test",
+      "phoneNumber": "test",
+      "personalNumber": "test",
+      "competencies": "testing"
+    },
+    {
+      "id": "1dd6b4ee-cd91-416b-aff0-3b795395e19d",
+      "firstName": "Ingmar",
+      "lastName": "Bergman",
+      "email": "Ingmar@bergman.se",
+      "phoneNumber": "0102039201023",
+      "personalNumber": "31344445-2334",
+      "competencies": "CSS, Animation, Film Making, Directing"
     }
   ]
 }
