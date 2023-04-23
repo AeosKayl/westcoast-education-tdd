@@ -11,8 +11,8 @@ const Home = () => {
         Westcoast Education has been in the educational branch for almost 40
         years. <br /> Our goal is and has been to provide technical education in
         the IT branch, specializing in system development studies, mainly web
-        and mobile-application development. <br /> Now, we moved into the
-        digital world.
+        and mobile-application development. <br /> Now, we moved into the world
+        of digital education.
       </p>
       <p className={classes.italic}>
         Ready to study something new? Feel free to browse through our available

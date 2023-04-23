@@ -5,12 +5,15 @@ import { StoreContext } from "../store/StoreContext";
 import TeachersList from "../components/lists/TeachersList";
 import BaseButton from "../components/UI/BaseButton";
 import classes from "./Pages.module.css";
+import Modal from "../components/UI/Modal";
+import AddNewTeacher from "../components/forms/AddNewTeacher";
 
 const Teachers = () => {
-  const { teachers, setTeachers } = useContext(StoreContext);
+  const { teachers, setTeachers, setOpenModal, openModal } =
+    useContext(StoreContext);
   const { data } = useHttp("teachers");
 
-  console.log(data);
+  //console.log(data);
 
   useEffect(() => {
     if (data) {
@@ -19,11 +22,27 @@ const Teachers = () => {
   }, [data]);
 
   return (
-    <section className={`${classes.page} ${classes.teachers}`}>
-      <h1>Teachers</h1>
-      <BaseButton className={classes.addBtn}>Add New Teacher</BaseButton>
-      <TeachersList teachers={teachers} />
-    </section>
+    <>
+      <Modal
+        open={openModal}
+        header="Form Model"
+        onClose={() => setOpenModal(!openModal)}
+      >
+        <AddNewTeacher />
+      </Modal>
+      <section className={`${classes.page} ${classes.teachers}`}>
+        <div>
+          <h1>Teachers</h1>
+          <BaseButton
+            className={classes.addBtn}
+            onClick={() => setOpenModal(!openModal)}
+          >
+            Add New
+          </BaseButton>
+        </div>
+        <TeachersList teachers={teachers} />
+      </section>
+    </>
   );
 };
 
